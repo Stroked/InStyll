@@ -44,30 +44,30 @@ const ProductDetails = ({ product, products }) => {
                     <div className="flex-[1] py-3">
                         {/* PRODUCT TITLE */}
                         <div className="text-[34px] font-semibold mb-2 leading-tight">
-                            Jordan Retro 6 G
+                            Sea Landscape Fleece Jacket
                         </div>
 
                         {/* PRODUCT SUBTITLE */}
                         <div className="text-lg font-semibold mb-5">
-                            Men's Golf Shoes
+                            Burberry
                         </div>
 
                         {/* PRODUCT PRICE */}
                         <div className="flex items-center">
                             <p className="mr-2 text-lg font-semibold">
-                                MRP : &#8377;20.00
+                                $200
                             </p>
                             <p className="text-base  font-medium line-through">
-                                &#8377;20.00
+                                $160
                             </p>
                             <p className="ml-auto text-base font-medium text-green-500">
-                                20% off
+                                20% extra
                             </p>
 
                         </div>
 
                         <div className="text-md font-medium text-black/[0.5]">
-                            incl. of taxes
+                            excl. taxes
                         </div>
                         <div className="text-md font-medium text-black/[0.5] mb-20">
                             {`(Also includes all applicable duties)`}
@@ -80,8 +80,8 @@ const ProductDetails = ({ product, products }) => {
                                 <div className="text-md font-semibold">
                                     Select Size
                                 </div>
-                                <div className="text-md font-medium text-black/[0.5] cursor-pointer">
-                                    Select Guide
+                                <div className="text-xs text-black/[0.8] cursor-pointer align-middle">
+                                    [INSERT STYLLAR TOOL]
                                 </div>
                             </div>
                             {/* HEADING END */}
@@ -89,38 +89,24 @@ const ProductDetails = ({ product, products }) => {
                             {/* SIZE START */}
                             <div id="sizesGrid" className="grid grid-cols-3 gap-2">
                                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 6
+                                    XS
                                 </div>
                                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 6.5
+                                    S
                                 </div>
                                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 7
+                                    M
                                 </div>
                                 <div className="border rounded-md text-center py-3 font-medium cursor-not-allowed bg-black/[0.1] opacity-50">
-                                    UK 7.5
+                                    L
                                 </div>
                                 <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 8
+                                    XL
                                 </div>
                                 <div className="border rounded-md text-center py-3 font-medium cursor-not-allowed bg-black/[0.1] opacity-50">
-                                    UK 8.5
+                                    XXL
                                 </div>
-                                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 9
-                                </div>
-                                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 9.5
-                                </div>
-                                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 10
-                                </div>
-                                <div className="border rounded-md text-center py-3 font-medium hover:border-black cursor-pointer">
-                                    UK 10.5
-                                </div>
-                                <div className="border rounded-md text-center py-3 font-medium cursor-not-allowed bg-black/[0.1] opacity-50">
-                                    UK 11
-                                </div>
+                                
                             </div>
                             {/* SIZE END */}
                             {/* SHOW ERROR START */}
@@ -169,8 +155,7 @@ const ProductDetails = ({ product, products }) => {
                             </div>
                             <div className="markdown text-md mb-5">
                                 <ReactMarkdown>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </ReactMarkdown>
+                                Sea Landscape Print Fleece by Burberry crafted from wool featuring an oversized silhouette, long sleeves with elastic cuffs, dropped shoulders, a funnel collar with a concealed zipper fastening, a lined interior, a contrasting rubber logo patch on the sleeve and a sea landscape throughout. Style with a crewneck jumper, slacks and lace-up sneakers for a cozy yet trendy cool day out in the city.  </ReactMarkdown>
                             </div>
                         </div>
                     </div>

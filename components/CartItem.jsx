@@ -20,23 +20,23 @@ const CartItem = () => {
                 <div className="flex flex-col md:flex-row justify-between">
                     {/* PRODUCT TITLE */}
                     <div className="text-lg md:text-2xl font-semibold text-black/[0.8]">
-                        Jordan Retro 6 G
+                        Seascape Jacket
                     </div>
 
                     {/* PRODUCT SUBTITLE */}
                     <div className="text-sm md:text-md font-medium text-black/[0.5] block md:hidden">
-                        Men's Golf Shoes
+                        Outerwear
                     </div>
 
                     {/* PRODUCT PRICE */}
                     <div className="text-sm md:text-md font-bold text-black/[0.5] mt-2">
-                        MRP : &#8377;20.00
+                        Free
                     </div>
                 </div>
 
                 {/* PRODUCT SUBTITLE */}
                 <div className="text-md font-medium text-black/[0.5] hidden md:block">
-                    Men's Golf Shoes
+                    Outerwear
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
@@ -44,17 +44,12 @@ const CartItem = () => {
                         <div className="flex items-center gap-1">
                             <div className="font-semibold">Size:</div>
                             <select className="flex items-center gap-1">
-                                <option value="1">UK 6</option>
-                                <option value="2">UK 6.5</option>
-                                <option value="3">UK 7</option>
-                                <option value="4">UK 7.5</option>
-                                <option value="5">UK 8</option>
-                                <option value="6">UK 08.5</option>
-                                <option value="7">UK 9</option>
-                                <option value="8">UK 9.5</option>
-                                <option value="9">UK 10</option>
-                                <option value="10">UK 10.5</option>
-                                <option value="11">UK 11</option>
+                                <option value="1"> XS</option>
+                                <option value="2"> S</option>
+                                <option value="3"> M</option>
+                                <option value="4"> L</option>
+                                <option value="5"> XL</option>
+                              
                             </select>
                         </div>
 

@@ -14,9 +14,17 @@ export default function Home() {
                         Styllar Test Website 
                     </div>
                     <div className="text-md md:text-xl">
-                        A lightweight Nike ZoomX midsole is combined with
-                        increased stack heights to help provide cushioning
-                        during extended stretches of running.
+                        This is shopping, refined.
+
+                        From then on, every piece is precision-matched to you — sleeves aligned, shoulders balanced, proportions exact. No size guessing. No compromises.
+
+                        Just clothing engineered to fit — beautifully.
+                    </div>
+                    <div className="text-md md:text-xl">
+                        This is shopping, refined.
+
+                        Every piece is precision-matched to you — sleeves aligned, shoulders balanced, proportions exact. No size guessing. No compromises. <b>
+                           Just clothing engineered to fit — beautifully. </b>
                     </div>
                 </div>
                 {/* heading and paragaph end */}               

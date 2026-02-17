@@ -54,7 +54,22 @@ const Header = () => {
         <header className={'w-full h-[50px] md;h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}'}>
             <Wrapper className="h-[60px] flex justify-between items-center">
                 <Link href="/">
-                    <img src="/logo.svg" className="w-[40px] md:w-[60px]"/>  
+                    <svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="320" height="80" rx="16" fill="white"/>
+  
+  <circle cx="40" cy="40" r="18" stroke="black" stroke-width="2"/>
+  <line x1="40" y1="22" x2="40" y2="58" stroke="black" stroke-width="2"/>
+  
+  <text x="75" y="50" 
+        font-family="Helvetica, Arial, sans-serif" 
+        font-size="32" 
+        font-weight="500" 
+        letter-spacing="1.5" 
+        fill="black">
+    InStyll
+  </text>
+</svg>
+ 
                 </Link>
                 <Menu
                         showCatMenu={showCatMenu}
