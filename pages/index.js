@@ -16,14 +16,11 @@ export default function Home() {
                     <div className="text-md md:text-xl">
                         This is shopping, refined.
 
-                        From then on, every piece is precision-matched to you — sleeves aligned, shoulders balanced, proportions exact. No size guessing. No compromises.
-
-                        Just clothing engineered to fit — beautifully.
                     </div>
                     <div className="text-md md:text-xl">
-                        This is shopping, refined.
+                     
 
-                        Every piece is precision-matched to you — sleeves aligned, shoulders balanced, proportions exact. No size guessing. No compromises. <b>
+                        Every piece is precision-matched to your body. No size guessing. No compromises. <b>
                            Just clothing engineered to fit — beautifully. </b>
                     </div>
                 </div>
