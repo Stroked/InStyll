@@ -6,7 +6,7 @@ import RelatedProducts from "@/components/RelatedProducts";
 import ReactMarkdown from "react-markdown";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "@/store/cartSlice";
-
+import StyllarPlugin from "@/components/styllar-plugin";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -81,7 +81,7 @@ const ProductDetails = ({ product, products }) => {
                                     Select Size
                                 </div>
                                 <div className="text-xs text-black/[0.8] cursor-pointer align-middle">
-                                    [INSERT STYLLAR TOOL]
+                                    <StyllarPlugin />
                                 </div>
                             </div>
                             {/* HEADING END */}
